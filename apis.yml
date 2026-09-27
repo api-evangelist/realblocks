@@ -60,3 +60,10 @@ x-enrichment:
     resolves. github.com/realblocks is an unrelated Seoul/South Korea entity
     (realblocks.kr), not this company. No public API surface to enrich; no artifacts
     produced (no fabrication).
+x-lifecycle:
+  state: shuttered
+  reason: domain-does-not-resolve
+  observed: '2026-09-27'
+  detail: >-
+    The company's own domain returned no A or AAAA record when probed. This is an observation about the domain, not a request from the company.
+  indexed: false
